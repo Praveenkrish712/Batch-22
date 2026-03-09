@@ -1,0 +1,26 @@
+HTML - Hyper Text Markup Language           <body> some content </body>
+
+self closing tags - Hr, meta, br, img
+
+==> It is not a Programming Language
+==> It is a Markup Language
+==> Every Website can start with HTML
+==> To help of HTML we create a Web Pages
+
+1) Heading - h1 to h6
+
+2) Paragraph - p
+
+3) Hr
+
+4) break tag - br
+
+5) Text formatting - i, b or strong, sub, sup and mark
+
+6) Anchor tag (linking) - a
+
+7) image tag - img
+
+8) Table - tr, th and td
+
+9) List - ordered list and unordered list
