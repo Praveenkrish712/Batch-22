@@ -1,6 +1,6 @@
 HTML - Hyper Text Markup Language           <body> some content </body>
 
-self closing tags - Hr, meta, br, img
+self closing tags - Hr, meta, br, img, input
 
 ==> It is not a Programming Language
 ==> It is a Markup Language
@@ -24,3 +24,9 @@ self closing tags - Hr, meta, br, img
 8) Table - tr, th and td
 
 9) List - ordered list and unordered list
+
+10) forms - label, input, placeholder, type(Important), required and button
+
+11) Media Elemets - Video and Audio
+
+12) semantic tags - Header, footer, section, main and nav
