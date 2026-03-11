@@ -1,6 +1,6 @@
 HTML - Hyper Text Markup Language           <body> some content </body>
 
-self closing tags - Hr, meta, br, img, input
+self closing tags - Hr, meta, br, img, input, link
 
 ==> It is not a Programming Language
 ==> It is a Markup Language
@@ -30,3 +30,27 @@ self closing tags - Hr, meta, br, img, input
 11) Media Elemets - Video and Audio
 
 12) semantic tags - Header, footer, section, main and nav
+
+
+CSS - Cascading Style Sheet
+==> it is used to style abd design HTML webpages
+==> CSS Control the Appearance of the web Pages
+--> Colors, fonts, spacing, layout, animation, Transition and Responsive
+
+1) Types of CSS
+~~> Inline CSS
+~~> Internal CSS
+~~> External CSS
+Inline > Internal > External
+
+2) CSS Syntax
+  Selector {
+    property : value;
+  }
+
+3) Types Of Selector
+==> Elemets Selector - (h1) (h2) (p)
+==> Class Selector - (.) - Multiple - no of times we can use the same class name
+==> Id Selector - (#) - Unique - Only one time we can use the same id name
+==> Univarsal Selector - (*) - style can apply the entire site
+==> Group Selector - class or id Selector contains different tags, in that differents tags we want to change the same style means we can go with Group Selector...

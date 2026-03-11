@@ -1,0 +1,28 @@
+*{
+    background-color: gray;
+}
+
+h1{
+    color: yellow;
+}
+/* 
+h2{
+    color: blue;
+} */
+
+/* p{
+    color: violet;
+} */
+
+.Selector > h1,
+.Selector > h2,
+.Selector > h3,
+.Selector > h4,
+.Selector > p{
+    color: blue;
+}
+
+
+#type > h2{
+    color: red;
+}
