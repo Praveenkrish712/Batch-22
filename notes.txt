@@ -54,3 +54,29 @@ Inline > Internal > External
 ==> Id Selector - (#) - Unique - Only one time we can use the same id name
 ==> Univarsal Selector - (*) - style can apply the entire site
 ==> Group Selector - class or id Selector contains different tags, in that differents tags we want to change the same style means we can go with Group Selector...
+
+4) color and background
+
+==> color - name, RGB(), HEX
+==> background
+       background-color: darkorange;
+       background-image: url(./Assets/151059103.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+
+ 5) Text Styling 
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 10px;
+    letter-spacing: 10px;   
+
+ 6) Box Modeling
+==> content
+==> Padding - Around the content if you want to give some space means we can go with Padding
+==> Border - Around the Padding if you want to give some space means we can go with Border
+==> Margin - Around the Border if you want to give some space means we can go with Margin
