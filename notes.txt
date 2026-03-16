@@ -80,3 +80,10 @@ Inline > Internal > External
 ==> Padding - Around the content if you want to give some space means we can go with Padding
 ==> Border - Around the Padding if you want to give some space means we can go with Border
 ==> Margin - Around the Border if you want to give some space means we can go with Margin
+
+7) position - moving one place to Another place
+i - Static (default)
+ii - Relative - give the position and set the boundries like left,right,bottom and top
+iii - Absolute - Absolute can check the non-Static parent, if it is there means it will act as a same Relative, otherwise it will check Another parent..... there is no Another parent means it will go to the root(body) of the Website...
+iv - fixed - in that place is fixed
+v - Sticky - we are using top:0 or sometimes z-index:100, once reach the top:0 it will act as a same fixed
