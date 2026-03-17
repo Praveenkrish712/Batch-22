@@ -82,3 +82,81 @@ p{
     left: 100px; */
     /* top: 50px; */
 }
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    flex: 1;
+    order: 2;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    flex: 1;
+    order: 3;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex: 1;
+    order: 1;
+}
+
+.box4{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box5{
+    width: 1000px;
+    height: 100px;
+    background-color: pink;
+}
+
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+.box7{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+.box8{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+}
+
+.box9{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+.box10{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* height: 500px; */
+    /* border: 5px solid black; */
+    align-items: start;
+    /* gap: 10px; */
+    flex-wrap: nowrap;
+    align-content: start;
+}

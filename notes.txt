@@ -87,3 +87,14 @@ ii - Relative - give the position and set the boundries like left,right,bottom a
 iii - Absolute - Absolute can check the non-Static parent, if it is there means it will act as a same Relative, otherwise it will check Another parent..... there is no Another parent means it will go to the root(body) of the Website...
 iv - fixed - in that place is fixed
 v - Sticky - we are using top:0 or sometimes z-index:100, once reach the top:0 it will act as a same fixed
+
+8) Flex (display) - One dimensional layout system (Row or column)
+i - Using Flex - change column into Row
+ii - Flex-direction - Row, row-reverse, column, column-reverse
+iii - Justify content (X) - start, center, end, space-evenly, space-around, space-between
+iv - align items (set the height) (Y) - start, center, end
+v - Gap - to be set the values (px,%,rem)
+vi - Flex-wrap - no-wrap, wrap, wrap-reverse
+vii - align-content (set the height) (flex-wrap is enble) (Y) - start, center, end, space-around, space-evenly, space-between
+viii - flex (on itme) - flex:1
+ix - Order - change the visual order of the property
