@@ -98,3 +98,29 @@ vi - Flex-wrap - no-wrap, wrap, wrap-reverse
 vii - align-content (set the height) (flex-wrap is enble) (Y) - start, center, end, space-around, space-evenly, space-between
 viii - flex (on itme) - flex:1
 ix - Order - change the visual order of the property
+
+9) Grid(display) - Two dimensional layout system (Row and column)
+i - using grid - no change
+ii - grid-template-columns: 200px 300px 500px;
+                          : 40% 30% 30%;
+                          : 1fr 1fr 1fr;
+                          : 300px 20% 1fr;
+                          : 1fr 2fr 1fr;
+                          : repeat(3,1fr);
+                          : minmax(200px,1fr) 1fr 1fr;
+                          : repeat(3,minmax(200px,1fr));
+
+iii - grid-template-rows : 200px 300px 500px;
+                          : 40% 30% 30%;
+                          : 1fr 1fr 1fr;
+                          : 300px 20% 1fr;
+                          : 1fr 2fr 1fr;
+                          : repeat(3,1fr);
+                          : minmax(200px,1fr) 1fr 1fr;
+                          : repeat(3,minmax(200px,1fr));     
+iv - row-gap: 20px;
+v - column-gap: 40px;   
+vi - grid-column-start: 1; starting value
+     grid-column-end: 4; Ending value             
+     grid-column: span 3;  
+vii -                                  

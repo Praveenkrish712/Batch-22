@@ -39,13 +39,13 @@ h2{
     color: rgb(92, 38, 38);
 }
 
-p{
-    /* background-color: darkorange; */
+/* p{
+    background-color: darkorange;
     background-image: url(./Assets/151059103.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .Container{
     width: 200px;
@@ -159,4 +159,84 @@ p{
     /* gap: 10px; */
     flex-wrap: nowrap;
     align-content: start;
+}
+
+.para{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    /* grid-template-rows: 300px 30% 1fr; */
+}
+
+.items{
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* row-gap: 10px;
+    column-gap: 40px; */
+    gap: 10px;
+    margin: 20px;
+}
+
+.item1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: span 3;
+}
+
+.item2{
+    grid-row: span 3;
+}
+
+.layout > div{
+    border: 1px solid black;
+    background-color: #ebabac;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    " h h h h "
+    " sb1 m m sb2 "
+    " f f f f";
+}
+
+.header{
+    grid-area: h;
+}
+
+.footer{
+    grid-area: f;
+}
+
+.sidebar1{
+    grid-area: sb1;
+}
+
+.sidebar2{
+    grid-area: sb2;
+}
+
+.main{
+    grid-area: m;
 }
