@@ -123,4 +123,8 @@ v - column-gap: 40px;
 vi - grid-column-start: 1; starting value
      grid-column-end: 4; Ending value             
      grid-column: span 3;  
-vii -                                  
+vii - grid-template-areas: 
+                         " h h h h "
+                         " sb1 m m sb2 "
+                         " f f f f";    
+viii -   grid-area: h;                                                 
