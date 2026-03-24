@@ -307,3 +307,74 @@ h2{
         left: 30px;
     }
 }
+
+
+/* @media screen and (max-width:800px) {
+    h1{
+        text-align: center;
+        color: red;
+        background-color: gray;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h2{
+        text-align: center;
+        color: greenyellow;
+        background-color: violet;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+} */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightsalmon;
+    padding: 15px 30px;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list > li{
+    margin-left: 20px;
+}
+
+.nav-list > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-list > li > a:hover{
+    color: rgb(243, 76, 76);
+}
+
+.manu-icon{
+    width: 30px;
+    height: 30px;
+    fill: white;
+    display: none;
+}
+
+
+@media screen and (max-width:500px) {
+    .navbar{
+        display: none;
+    }
+    
+    .manu-icon{
+        display: block;
+    }
+}

@@ -151,3 +151,15 @@ Animation
         --> Give the Animation name and duration
         --> using animation we have use the @keyframes and set the animation name into the keyframes
         --> @keyframes we use from to OR 25%,50%,75%,100%
+
+11) Media Queries Or Responsive design
+== > Apply styles on the devices Conditions
+==> device type (Mobile,tab,desktop)
+
+~~~> Mobile - 320px to 600px
+~~~> tablet - 601px to 800px
+~~~> Lap/desktop - Above 801px
+
+@Media screen and (max-width:size){
+  block of code
+}
